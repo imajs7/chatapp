@@ -1,0 +1,56 @@
+.join-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #222;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-container {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.main-content > div {
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputbox,
+.btn {
+  border: 0;
+  outline: 0;
+  background-color: #ccc;
+  color: #222;
+  padding: 12px;
+}
+
+.btn {
+  background-color: crimson;
+  color: #efefef;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: rgb(156, 22, 49);
+}
